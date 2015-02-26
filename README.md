@@ -1,1 +1,3 @@
-# MEAN-Gulp-Browserify-Boilerplate
+# MyAppName Description
+## Setup
+
