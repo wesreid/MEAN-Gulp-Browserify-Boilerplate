@@ -18,7 +18,7 @@ gulp run
 ```
 cd setup
 ./setup.sh your-local-domain.com
-```t
+```
 
 > This will:
 > - `brew install nginx`
@@ -26,5 +26,6 @@ cd setup
 > - create an entry in your local hosts file
 > - start nginx
 
-## SASS
+## SASS/SCSS
+The root Sass file is `/scss/main.scss`. Each angular feature module in `public/js/ng` contains it's own scss directory. This allows the angular feature modules to be self-contained. To include these files into the CSS bundle, simply include their filename in `/scss/main.scss`. During the gulp build, the paths to these sass files will be resolved by the `/lib/SassIncludePaths` middleware.
 
