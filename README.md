@@ -18,7 +18,7 @@ gulp run
 ```
 cd setup
 ./setup.sh your-local-domain.com
-```
+```t
 
 > This will:
 > - `brew install nginx`
